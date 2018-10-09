@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Popac
+title: About
 permalink: /about/
 ---
 
