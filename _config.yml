@@ -16,7 +16,7 @@
 title: Popac
 email: aleksandar.popovic.popac@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  When you don’t create things, you become defined by your tastes rather than ability. Your tastes only narrow & exclude people. So create.
+  Knowledge was created to be shared.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://popac.github.io"
 #twitter_username: jekyllrb
