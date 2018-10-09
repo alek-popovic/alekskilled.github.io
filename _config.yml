@@ -18,7 +18,7 @@ email: aleksandar.popovic.popac@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   When you don’t create things, you become defined by your tastes rather than ability. Your tastes only narrow & exclude people. So create.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://popac.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://popac.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  popac
 
@@ -27,12 +27,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
