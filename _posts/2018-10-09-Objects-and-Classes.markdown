@@ -50,7 +50,23 @@ Basically in `object-oriented programming` we have a very `simple equation`:
 #=> State plus behavior is an object!!!
 {% endhighlight %}
 
-Let's explain this differently: the `object` is defined by its `state` { `data that is in the object` } and the things it can { `do` } with this data `behavior`.
+Let's explain this differently:
+
+The `object` is defined by its:
+
+{% highlight ruby %}
+  ----------
+  State
+  ----------
+#=> data that is in the object!!!
+{% endhighlight %}
+
+{% highlight ruby %}
+  ----------
+  Behavior
+  ----------
+#=> Behavior what object do!!!
+{% endhighlight %}
 
 Let's look at this on a concrete case:
 
