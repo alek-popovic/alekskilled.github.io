@@ -75,12 +75,18 @@ Let's look at this on a concrete case:
 
 require 'date'
 
-# Somebody class
-class Somebody
-  def initialize(first_name, last_name, birth_date)
+# Drummer class
+class Drummer
+  def initialize(nick_name, first_name, last_name, birth_date, drum_kit)
+    @nick_name  = nick_name
     @first_name = first_name
-    @last_name = last_name
+    @last_name  = last_name
     @birth_date = Date.parse(birth_date)
+    @drum_kit   = drum_kit
+  end
+
+  def nickname
+    @nick_name
   end
 
   def birthday
@@ -88,7 +94,11 @@ class Somebody
   end
 
   def full_name
-    "#{@first_name} #{@last_name}"
+    "#{@my_first_name} #{@my_last_name}"
+  end
+
+  def kit
+    @drum_kit
   end
 end
 {% endhighlight %}

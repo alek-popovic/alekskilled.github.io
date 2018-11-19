@@ -6,3 +6,10 @@ gem 'minima', '~> 2.0'
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
 end
+
+gem 'guard'
+gem 'guard-jekyll-plus'
+gem 'guard-livereload'
+
+gem 'rb-inotify'
+gem 'livereload'
