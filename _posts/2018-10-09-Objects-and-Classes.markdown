@@ -58,14 +58,14 @@ The `object` is defined by its:
   ----------
   State
   ----------
-#=> data that is in the object!!!
+#=> Data that is in the object => State!!!
 {% endhighlight %}
 
 {% highlight ruby %}
   ----------
   Behavior
   ----------
-#=> Behavior what object do!!!
+#=> Things it can do with the data => Behavior!!!
 {% endhighlight %}
 
 Let's look at this on a concrete case:
@@ -101,4 +101,86 @@ class Drummer
     @drum_kit
   end
 end
+{% endhighlight %}
+
+To make this clearer:
+
+{% highlight ruby %}
+# frozen_string_literal: true
+
+require 'date'
+
+# Drummer class
+class Drummer
+  ############################################################################
+  # ##########################################################################
+  #
+  # --------------------------------------------------------------------------
+  #  State of the object or, in other words, the information it contains
+  # --------------------------------------------------------------------------
+  #
+  # ##########################################################################
+  def initialize(nick_name, first_name, last_name, birth_date, drum_kit)
+    @nick_name  = nick_name
+    @first_name = first_name
+    @last_name  = last_name
+    @birth_date = Date.parse(birth_date)
+    @drum_kit   = drum_kit
+  end
+  # ##########################################################################
+  #
+  # --------------------------------------------------------------------------
+  #  State of the object or, in other words, the information it contains
+  # --------------------------------------------------------------------------
+  #
+  # ##########################################################################
+  ############################################################################
+
+  ############################################################################
+  # ##########################################################################
+  #
+  # --------------------------------------------------------------------------
+  #  Behavior of the object or, in other words, things it can do with the data
+  # --------------------------------------------------------------------------
+  #
+  # ##########################################################################
+  def nickname
+    @nick_name
+  end
+
+  def birthday
+    @birth_date
+  end
+
+  def full_name
+    "#{@my_first_name} #{@my_last_name}"
+  end
+
+  def kit
+    @drum_kit
+  end
+  # ##########################################################################
+  #
+  # --------------------------------------------------------------------------
+  #  Behavior of the object or, in other words, things it can do with the data
+  # --------------------------------------------------------------------------
+  #
+  # ##########################################################################
+  ############################################################################
+end
+{% endhighlight %}
+
+So we can do next:
+
+{% highlight ruby %}
+
+#  State
+
+drummer = Drummer.new(
+  'popac',
+  'Aleksandar',
+  'Popovic',
+  '1981-09-18',
+  'Slingerland'
+)
 {% endhighlight %}
