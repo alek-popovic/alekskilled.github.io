@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Objects and Classes"
+title:  "Objects and Classes The Ruby Object Model and Metaprogramming"
 date:   2018-10-09 12:29:52 +0200
-categories: The Ruby Object Model and Metaprogramming
+categories: ruby
 ---
 In `Ruby` programming language to understand `Ruby Object Model` and `Metaprogramming` we have to start with the three most basic and most important things:
 
@@ -177,10 +177,10 @@ So we can do next:
 #  State
 
 drummer = Drummer.new(
-  'popac',
+  'mozgovac',
   'Aleksandar',
   'Popovic',
   '1981-09-18',
-  'Slingerland'
+  'Sonor'
 )
 {% endhighlight %}
