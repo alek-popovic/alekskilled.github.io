@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Početak rada sa ES6"
-date:   2019-03-04 12:29:52 +0200
+date:   2018-01-27 12:29:52 +0200
 categories: ES6
 ---
 <h2>Uvod</h2>
@@ -34,4 +34,4 @@ Za sve karakteristike možete proveriti trenutnu <a href="http://kangax.github.i
 
 Nove karakteristike uvedene u `ECMAScript 6` predstavljaju osnovu na kojoj se trenutno razvijaju `JavaScript` aplikacije.
 
-<a href="{{ site.baseurl }}{% link _posts/2019-03-04-Deklaracije-promenljivih-i-opseg-vidljivosti.markdown %}">Deklaracije promenljivih i opseg vidljivosti</a>
+<a href="{{ site.baseurl }}{% link _posts/2018-02-13-deklaracije-promenljivih-i-opseg-vidljivosti.markdown %}">Deklaracije promenljivih i opseg vidljivosti</a>
