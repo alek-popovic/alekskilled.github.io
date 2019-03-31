@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://popac.github.io"
 twitter_username: popicic
 github_username: popac
+disqus_username: popac
 
 # Build settings
 markdown: kramdown
