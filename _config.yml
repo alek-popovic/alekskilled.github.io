@@ -3,9 +3,9 @@ title: Aleksandar Popovic / Popac Development Blog
 email: aleksandar.popovic.popac@gmail.com
 description: Knowledge was created to be shared.
 baseurl: ""
-url: "https://mozgovac.github.io"
-twitter_username: mozgovac
-github_username: mozgovac
+url: "https://alek-popovic.github.io"
+twitter_username: alek_popovic
+github_username: alek-popovic
 disqus_username: mozgovac
 markdown: kramdown
 theme: minima
